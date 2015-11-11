@@ -9,27 +9,63 @@
 </head>
 <body>
   <!-- capertas assets son todos los archivos externos que vamos estar utlizando, todas las imagenes todos los recursos. -->
-  <header>
-    <img src="assets/images/logo.svg" alt="logo tipo" />
-    <!-- por que estoy utilizando formato .SVG sinpremente para pues no inporta que clase de pantalla estoy biendo, una pantalla tradiccionar o una pantalla retina o alta definicion que vea vien y no se muestre PIXELIADO. -->
-    <nav>
-      <ul>
-        <li>GATOS</li>
-        <li>PERROS</li>
-        <li>ACERCA</li>
-      </ul>
-    </nav>
-  </header>
-  <section class="home">
-    <h1>Aprende sobre las mascotas mas populares de inte</h1>
 
-    <a href="gatos.html" class="boton">GATOS</a>
-    <a href="perros.html" class="boton">PERROS</a>
 
+<header>
+    <div class="container ">
+      <nav class="row between middle ">
+        <div class="col-4">
+          <a href="index.html">
+            <img src="assets/images/logo.svg" alt="logo tipo" />
+          </a>
+        </div>
+
+        <div class="col-3 end">
+          <ul class="row between">
+            <li class="col-3">
+              <a href="/gatos.html" class="layaut_a">GATOS</a>
+            </li>
+            <li class="col-3">
+              <a href="/perros.html" class="layaut_a">PERROS</a>
+            </li>
+            <li class="col-3">
+              <a href="acerca.html" class="layaut_a">ACERCA</a>
+            </li>
+          </ul>
+        </div>
+
+      </nav>
+    </div>
+</header>
+
+
+<section class="home">
+  <div  class="container">
+    <div class="row center">
+
+      <h1 class="col-10">Aprende sobre las mascotas mas populares de inte</h1>
+
+      <div class="col-3 boton">
+        <a href="gatos.html" class="boton_a">GATOS</a>
+      </div>
+      <div class="col-3 boton">
+        <a href="perros.html" class="boton_a">PERROS</a>
+      </div>
+    </div>
+
+  </div>
   </section>
 
+
+
   <footer>
-    2015 - <a href="https://twitter.com/?lang=es">Luis Hidalgo</a>
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          2015 - <a href="https://twitter.com/?lang=es" class="layaut_a" target="_blank">Luis Hidalgo</a>
+        </div>
+      </div>
+    </div>
   </footer>
 </body>
 </html>
