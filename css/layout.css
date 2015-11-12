@@ -25,3 +25,12 @@ header img {
   width: 250px;
   display: inline-block;
 }
+
+img{
+  width: 100%;
+}
+
+.float{
+  display: inline;
+  max-width: 15%;
+}
